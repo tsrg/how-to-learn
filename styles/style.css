@@ -331,10 +331,10 @@ z-index: 2;
   line-height: 1.15;
   font-size: 60px;
   font-weight: 500;
-}
-.kaufman__title__position {
   padding-top: 90px;
   margin: 0 auto;
+  position: relative;
+  z-index: 2;
 }
 
 .kaufman__subtitle_theme_dark {
@@ -344,6 +344,8 @@ z-index: 2;
   line-height: 34px;
   font-size: 24px;
   font-weight: 300;
+  position: relative;
+  z-index: 2;
 }
 .kaufman__subtitle_position {
   padding-top: 20px;
@@ -353,11 +355,6 @@ z-index: 2;
 .table_place_kufman {
   z-index: 2;
   position: relative;
-}
-z-index: 2;
-position: relative;
-/*переименовать!!!!*/
-.kaufman__table_margins_theme_dark {
   margin-bottom: 100px;
 }
 
