@@ -47,6 +47,7 @@
   line-height: 25px;
   font-size: 18px;
   width: 388px;
+  margin: 0;
 }
 
 .header__link {
@@ -237,6 +238,7 @@
 
 .kaufman__triangle {
   background-image: url("../images/kaufman-triangle.svg");
+  background-size: 877px 877px;
   position: absolute;
   top: 0;
   right: -210px;
@@ -275,16 +277,6 @@
 .footer{
   background-color: #1f1f1f;
   min-height: 350px;
-}
-
-.link__place_footer {
-  color: white;
-  text-decoration: none;
-}
-
-.link__place_footer:hover {
-  color:#e3e3e3;
-  text-decoration: underline;
 }
 
 .footer__colums {
@@ -326,18 +318,30 @@
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
 }
 
-.footer__column-link {
+.footer__column-links {
+  margin: 0;
   padding: 20px 0 16px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
   text-decoration: none;
   list-style: none;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  color:#e3e3e3;
+  text-decoration: underline;
 }
 
 .footer__social-icon {
