@@ -13,4 +13,5 @@
 .feynman__link:hover {
   color:#1c5aae;
   text-decoration: underline;
+  opacity: 0.9;
 }
