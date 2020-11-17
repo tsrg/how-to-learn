@@ -2,4 +2,9 @@
   position: relative;
   top: 0;
   left: 0;
+  transition: 0.8s;
+}
+
+.logo_place_footer:hover {
+  opacity: 0.8;
 }
